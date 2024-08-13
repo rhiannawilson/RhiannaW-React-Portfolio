@@ -1,8 +1,8 @@
 {
   "name": "rhiannaw-react-portfolio",
-  "version": "1.0.0",
-  "description": "A platform designed for employers to easily assess, with a focus on single-page react application.",
-  "main": "vite.config.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "start": "vite",
@@ -10,20 +10,22 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^4.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.3.5",
-    "vite": "^5.4.0"
-  }
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
+  },
+  "description": "A platform designed for employers to easily assess, with a focus on single-page react application.",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
 }
