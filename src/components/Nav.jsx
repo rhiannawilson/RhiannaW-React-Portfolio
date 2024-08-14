@@ -1,11 +1,8 @@
 // Here we are importing a CSS file as a dependency
-import './pages/App.css';
+// import '.';
 import 'react';
 
-
-
-function Header() {
-  const text = 'Rhianna\'s'
+function Nav() {
   return (
 <div>
 <nav className="nav">
@@ -16,13 +13,9 @@ function Header() {
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
-
-<header>
-    <h1>Welcome to {text} Portfolio</h1>
-</header>
 </div>
   );
 }
      
 
-export default Header;
+export default Nav;

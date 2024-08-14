@@ -1,10 +1,10 @@
-import React from 'react';
+import 'react';
 
 function HomePage() {
     const text = 'Discover my projects here'
     return (
     <div>
-    <div className="header">
+    <div className="homepage">
         <h3>{text}</h3>
       </div>
       <section className="projs"> 

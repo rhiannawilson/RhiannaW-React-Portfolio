@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
 
   // In Navbar, we can assign a style from an object by using curly braces
   function Footer() {
