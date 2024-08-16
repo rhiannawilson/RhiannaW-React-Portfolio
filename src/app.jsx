@@ -1,19 +1,35 @@
-// Purpose: this is the root component of you React application, serving as the MAIN container for all other components
-// import { useState } from 'react'
+// Purpose: 
+// this is the root component of you React application, 
+// serving as the MAIN container for all other components
+
 import './App.css';
 import Header from './components/Header'
 import HomePage from './components/HomePage'
-import Navbar from './components/Footer'
+import Nav from './components/Nav'
+import Footer from './components/Footer'
+// import Alert from './components/pages/UI/Alert'
+// import Projects from './components/pages/Projects'; 
+import ContactForm from './components/pages/ContactForm';
 
+// We create a couple variables which contain strings
+// const message = 'All fields are required';
+// const alertType = "danger"
 
-function App() {
+export default function App() {
   return (
-    <>
+<div>
+      <Nav />
       <Header />
       <HomePage />
-      <Navbar />
-    </>
+      <Footer />
+      <ContactForm />
+      {/* <Alert type={alertType} message={message} />; */}
+</div>
   );
 }
 
-export default App;
+
+
+
+
+// app.jsx file imports our styling app.css and our header, homepage, nav and footer

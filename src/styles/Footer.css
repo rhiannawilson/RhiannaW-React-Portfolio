@@ -1,0 +1,23 @@
+
+/* coolors palette*/
+
+/* :root {
+    --khaki: #C3A995;
+    --beaver: #AB947E;
+    --umber: #6F5E53;
+    --beaver-2: #8A7968;
+    --rose-ebony: #593D3B;
+    --white: #ffffff;
+  }  */
+  
+
+
+/* footer Styling */
+.footer {
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
