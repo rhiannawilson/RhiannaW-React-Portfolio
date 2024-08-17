@@ -10,6 +10,8 @@ https://github.com/rhiannawilson/CMSify
 ## Netlify Deployment:
 https://rmw-netlify-deployment.netlify.app/
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e710bb0-fb7f-4582-83dd-e43549de1adb/deploy-status)](https://app.netlify.com/sites/rmw-netlify-deployment/deploys)
+
 ### Table of Contents:
 - [Description](#description)
 - [Directory Structure](#directory-structure)
