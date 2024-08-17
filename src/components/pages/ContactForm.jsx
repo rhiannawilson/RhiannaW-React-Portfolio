@@ -1,8 +1,85 @@
+import { useState } from 'react';
 import '../pages/pages.css';
-// import { useState } froßßm 'react';
+
 // import Alert from './UI/Alert';
 
+// Here we set 2 variables for first and last name using useState
+// ('') this sets a default value 'starting value'
 function ContactForm() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+
+  const handleInputChange = (e) => {
+    // get value and name of the input which triggered a change
+    const { name, value} = e.target;
+
+    // this statement calls either first or last name based on what field the user is typing in
+
+    return name === 'firstName' ? setFirstName(value) : setLastName(value);
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    alert(`Hey ${firstName} ${lastNAme}`);
+    setFirstName('');
+    setLastName('');
+  };
+  
+  return(
+    <div className="container text-center">
+      <h1>Hi hi {firstName} </h1>
+    </div>
+  )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //   const [alert, setAlert] = useState({ type: '', message: '' });
 
 //   const handleSubmit = (e) => {
@@ -16,45 +93,46 @@ function ContactForm() {
 //       setAlert({ type: 'danger', message: 'There was an error submitting the form.' });
 //     }
 //   };
-  return (
-<form>
-    <h1>Get in touch</h1>
-    <p>
-      {/* Use the Chrome DevTools to inspect the elements. Try to force <code>:focus</code> state on some of them and look for CSS properties like <code>appearance</code>, <code>outline</code>, and <code>cursor</code>. */}
-    </p>
-    <p>
-      <label htmlFor="username">Name:</label>
-      {/* <!-- This element has a CSS declaration of `cursor: text` --> */}
-      <input id="username" type="text" placeholder="First & Last" />
-    </p>
-    <p>
-      <label  htmlFor="email">E-mail:</label>
-      <input id="email" type="text" placeholder="me@example.com" />
-    </p>
-    <p>
-      {/* <label htmlFor="expertise">CSS level of expertise:</label> */}
-      {/* <!-- This element has a CSS declaration of `appearance: menulist` --> */}
-      {/* <select id="expertise">
-        <option>Beginner</option>
-        <option selected>Intermediate</option>
-        <option>Advanced</option>
-      </select> */}
-    </p>
-    <p>
-      <label htmlFor="comment">Message:</label>
-      <textarea id="comment" placeholder="Write in here"></textarea>
-    </p>
-    <p>
-      <input className="checkbox" id="agreement" type="checkbox" />
-      <label htmlFor="agreement">I agree to share my e-mail address with The CSS Blog</label>
-    </p>
-    <p>
-      {/* <!-- When this element is in a :focus state, the CSS `outline` property is applied --> */}
-      <button>Submit</button>
-    </p>
-  </form>
-  )
-}
+
+//   return (
+// <form>
+//     <h1>Get in touch</h1>
+//     <p>
+//       {/* Use the Chrome DevTools to inspect the elements. Try to force <code>:focus</code> state on some of them and look for CSS properties like <code>appearance</code>, <code>outline</code>, and <code>cursor</code>. */}
+//     </p>
+//     <p>
+//       <label htmlFor="username">Name:</label>
+//       {/* <!-- This element has a CSS declaration of `cursor: text` --> */}
+//       <input id="username" type="text" placeholder="First & Last" />
+//     </p>
+//     <p>
+//       <label  htmlFor="email">E-mail:</label>
+//       <input id="email" type="text" placeholder="me@example.com" />
+//     </p>
+//     <p>
+//       {/* <label htmlFor="expertise">CSS level of expertise:</label> */}
+//       {/* <!-- This element has a CSS declaration of `appearance: menulist` --> */}
+//       {/* <select id="expertise">
+//         <option>Beginner</option>
+//         <option selected>Intermediate</option>
+//         <option>Advanced</option>
+//       </select> */}
+//     </p>
+//     <p>
+//       <label htmlFor="comment">Message:</label>
+//       <textarea id="comment" placeholder="Write in here"></textarea>
+//     </p>
+//     <p>
+//       <input className="checkbox" id="agreement" type="checkbox" />
+//       <label htmlFor="agreement">I agree to share my e-mail address with The CSS Blog</label>
+//     </p>
+//     <p>
+//       {/* <!-- When this element is in a :focus state, the CSS `outline` property is applied --> */}
+//       <button>Submit</button>
+//     </p>
+//   </form>
+//   )
+// }
 
 export default ContactForm;
 

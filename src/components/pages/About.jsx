@@ -1,10 +1,10 @@
 import 'react';
+import '../pages/pages.css';
 
-function HomePage() {
+function About() {
     const text = 'About'
     return (
-    <div>
-    <div className="homepage">
+    <div className="about">
         <h3><strong>{text}</strong></h3>
 <p>Over the last six months, I have had the privilege of studying at the University of Sydney, expanding and developing skills in various programming technologies. In 2020, with a strong focus on frontend development, I mastered HTML5 and CSS3, completing Codecademy course which opened the doors into the world of website development.
 </p> 
@@ -23,23 +23,8 @@ Through this comprehensive learning experience, I have developed a versatile ski
 <p>
 This journey has not only expanded my technical abilities but also reinforced my passion for software development, preparing me to tackle future challenges with confidence and creativity.
  </p>
-      </div>
-      {/* <section className="projs">  */}
-
-        {/* <div id="myProj1"> 
-        </div>
-
-        <div id="myProj2"> 
-        </div>
-
-        <div id="myProj3"> 
-        </div> */}
-
-
-      {/* </section> */}
-      </div>
+ </div>
   )
   }
-  
-  export default HomePage;
+  export default About;
   

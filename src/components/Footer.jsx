@@ -2,7 +2,6 @@ import 'react';
 import '../styles/Footer.css';
 
 
-
 const styles = {
   footerStyle: {
     background: '#8A7968',
