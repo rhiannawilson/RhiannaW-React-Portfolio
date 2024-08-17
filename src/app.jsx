@@ -2,10 +2,12 @@
 // this is the root component of you React application, 
 // serving as the MAIN container for all other components
 import './App.css';
+import { Outlet } from 'react-router-dom';
 
+// import Header from './components/pages/Header';
+// import Footer from './components/pages/Footer';
 import PortfolioContainer from "./components/PortfolioContainer";
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 // import UI components under UI folder
 // import Alert from './components/pages/UI/Alert'
@@ -15,21 +17,21 @@ import Footer from './components/Footer';
 // const message = 'All fields are required';
 // const alertType = "danger"
 
-export default function App() {
-   
+function App() {
   return (
-<div>
-      <PortfolioContainer />
-      <Header />
-      <Footer />
-
+<>    
       {/* <Alert type={alertType} message={message} />; */}
+{/* <Nav /> */}
 
-      
-</div>
+      <PortfolioContainer />
+      <Outlet />
+
+
+    </>
   );
 }
 
+export default App;
 
 
 

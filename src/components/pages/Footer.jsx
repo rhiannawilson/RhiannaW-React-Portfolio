@@ -1,5 +1,5 @@
 import 'react';
-import '../styles/Footer.css';
+import './styles/Footer.css';
 
 
 const styles = {

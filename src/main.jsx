@@ -3,38 +3,49 @@
 //Responsible for rendering the root component APP.JSX into the DOM
 
 import ReactDOM from 'react-dom/client'
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import App from './App'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import './App.css'
 
-// import ContactForm from './components/pages/ContactForm.jsx';
-// import Projects from './components/pages/Projects.jsx';
+import App from './App.jsx'
+import Error from './components/pages/ErrorPage.jsx'
+import HomePage from './components/pages/HomePage.jsx';
+import ContactForm from './components/pages/ContactForm.jsx';
+import Projects from './components/pages/Projects.jsx';
+
+
+const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <App />,
+      errorElement:<Error />,
+      children: [
+        {
+          index: true,
+          element: <HomePage />,
+        },
+
+        {
+          path: 'projects',
+          element: <Projects />,
+        },
+        {
+            path: 'contact',
+            element: <ContactForm />,
+          },
+      ],
+    },
+  ]);
+  
+// Render the RouterProvider component
+  
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <App />
-)
-
-// const router = createBrowserRouter([
-//     {
-//       path: '/',
-//       element: <App />,
-//       children: [
-//         {
-//           index: 'contact',
-//           element: <ContactForm />,
-//         },
-
-//         {
-//           path: 'about',
-//           element: <Projects />,
-//         },
-//       ],
-//     },
-//   ]);
-  
-//   // Render the RouterProvider component
-//   ReactDOM.createRoot(document.getElementById('root')).render(
-//     <RouterProvider router={router} />
-//   );
-  
+    <RouterProvider router={router} /> 
+ );
+      
 // // main.jsx renders your App.jsx file 
+
+// ReactDOM.createRoot(document.getElementById('root')).render(
+    //     <App/>
+    // )
