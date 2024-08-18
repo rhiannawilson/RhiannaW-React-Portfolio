@@ -1,5 +1,5 @@
 import 'react';
-import '../pages/pages.css';
+import './styles/pages.css';
 
 function About() {
     const text = 'About'

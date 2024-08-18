@@ -12,6 +12,7 @@ import Error from './components/pages/ErrorPage.jsx'
 import HomePage from './components/pages/HomePage.jsx';
 import ContactForm from './components/pages/ContactForm.jsx';
 import Projects from './components/pages/Projects.jsx';
+import About from './components/pages/About.jsx';
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         {
           path: 'projects',
           element: <Projects />,
+        },
+        {
+          path: 'about',
+          element: <About />,
         },
         {
             path: 'contact',

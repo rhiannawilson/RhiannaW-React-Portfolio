@@ -1,11 +1,8 @@
 // Purpose: 
 // this is the root component of you React application, 
 // serving as the MAIN container for all other components
-import './App.css';
 import { Outlet } from 'react-router-dom';
 
-// import Header from './components/pages/Header';
-// import Footer from './components/pages/Footer';
 import PortfolioContainer from "./components/PortfolioContainer";
 import Nav from './components/Nav';
 
@@ -22,11 +19,9 @@ function App() {
 <>    
       {/* <Alert type={alertType} message={message} />; */}
 {/* <Nav /> */}
-
+<Nav />
       <PortfolioContainer />
       <Outlet />
-
-
     </>
   );
 }

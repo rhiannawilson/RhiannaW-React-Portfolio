@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../pages/pages.css';
+import './styles/pages.css';
 
 // import Alert from './UI/Alert';
 
@@ -21,7 +21,7 @@ function ContactForm() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    alert(`Hey ${firstName} ${lastNAme}`);
+    alert(`Hey ${firstName} ${lastName}`);
     setFirstName('');
     setLastName('');
   };
