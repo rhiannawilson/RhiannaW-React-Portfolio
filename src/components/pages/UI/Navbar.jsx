@@ -1,13 +1,12 @@
+
 export default function Nav({ links }) {
     return (
       <nav className="navbar">
-        <div className="containerNav">
-          <div className="navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-links">
-              {links.map((link) => link)}
+            <ul className="navbar">
+              <li className="navbar">
+                {links.map((link) => link)}
+              </li>
             </ul>
-          </div>
-        </div>
       </nav>
     );
   }

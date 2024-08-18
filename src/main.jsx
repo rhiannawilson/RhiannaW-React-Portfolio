@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App.jsx'
 import Error from './components/pages/ErrorPage.jsx'
