@@ -40,19 +40,19 @@
 
 
 /* ABOUT PAGE */
-
+/* 
 .about {
  background-color: pink;
 }
-
+ */
 
 
 
 /* PROJECTS PAGE */
-.projects {
+/* .projects {
     background-color: black;
 
-}
+} */
  
 /* .projs {
   display: flex;
@@ -63,14 +63,13 @@
 
 
 /* CONTACT FORM PAGE */
-.contactform-container {
+/* .contactform-container {
     background-color: aqua;
 }
-
+ */
 
 
 .navbar {
-  background-color: var(--khaki);
   padding: 5px;
   display: flex;
 justify-content: center;

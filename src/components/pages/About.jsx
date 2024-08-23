@@ -24,6 +24,7 @@ Through this comprehensive learning experience, I have developed a versatile ski
 This journey has not only expanded my technical abilities but also reinforced my passion for software development, preparing me to tackle future challenges with confidence and creativity.
  </p>
  </div>
+ 
   )
   }
   export default About;

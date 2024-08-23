@@ -5,7 +5,7 @@ import Navbar from './pages/UI/Navbar';
 export default function Nav() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
-    <Navbar
+    <Navbar className=""
       links={[
         <Link key={1} to="/">
           Home

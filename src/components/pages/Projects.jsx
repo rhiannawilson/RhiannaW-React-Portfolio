@@ -29,7 +29,7 @@ export default function Projects() {
             <div className='card'>
               <img src="project.jpg" alt='Project IMAGE' className="card-img-top" />
               <div className='card-body'>
-                <h4 className='card-title'>Project Two (title</h4>
+                <h4 className='card-title'>Project Two (title)</h4>
                 <p className='card-text'>This is where a short description will go</p>
               </div>
             </div>

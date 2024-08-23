@@ -42,6 +42,7 @@ function ContactForm() {
           conubia nostra, per inceptos himenaeos. <br></br>Etiam ornare rutrum felis at
           rhoncus. Etiam vel condimentum magna, quis tempor nulla.
         </p>
+        <p className='submit'>submit</p>
     </div>
   )
 }
