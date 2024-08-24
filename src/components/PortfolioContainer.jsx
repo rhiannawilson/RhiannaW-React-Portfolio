@@ -7,6 +7,8 @@ import HomePage from './pages/HomePage'
 import Header from './pages/Header';
 import Footer from './pages/Footer';
 
+
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('HomePage');
 
@@ -23,7 +25,6 @@ export default function PortfolioContainer() {
     }
     return <ContactForm />;
   };
-
   
   const handlePageChange = (page) => setCurrentPage(page);
 

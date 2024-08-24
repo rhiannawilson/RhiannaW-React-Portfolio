@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import Navbar from './pages/UI/Navbar';
-// import './pages/styles/pages.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Nav() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
-    <Navbar className=""
+    <Navbar
       links={[
         <Link key={1} to="/">
           Home

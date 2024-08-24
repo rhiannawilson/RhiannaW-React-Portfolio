@@ -9,18 +9,17 @@
   --rose-ebony: #593D3B;
   --white: #ffffff;
 } 
-
+/* 
 * {
   color: var(--rose-ebony);
-}
+} */
 
 body {
   font-family:'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   overflow: visible;
-  background-color: var(--white);
-} */
+} 
 
 /* Header section - Location under the nav bar */
 /* Content - Rhianna Wilson */
