@@ -1,42 +1,51 @@
 
-* {
-    color: var(--rose-ebony);
-  }
-  
-
 /* HOME PAGE */
+/* Navibar.css */
+/* 
+.side-navbar {
+  position: fixed;
+  top: 0;
+  right: 0; 
+  height: 100%;
+  width: 250px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1040;
+}
 
-/* HomePage Styling */
-/* About Section */
+.side-navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
 
-.homepage {
-    background-color:  black;
-    margin: 20px auto;
-    max-width: 1100px;
-    height: 100vh;
-    box-shadow: 0 0 25px var(--rose-ebony);
-    border-radius: 10px;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 200px;
-    padding-left: 100px;
-    
-  }
+}
+
+.side-navbar-collapse {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   
-  
-  .homepage h3 {
-    margin-top: 1px;
-    font-size: 1.33em;
-  }
-  
-  .homepage p {
-    font-size: 1.2em;
-    line-height: 2.5;
-    padding-bottom:10px;
-  }
+}
 
+.navbar-nav {
+  width: 100%;
+  padding-left: 0;
+}
 
+.nav-item {
+  width: 100%;
+}
 
+.nav-item a {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+ */
 
 
 /* ABOUT PAGE */
@@ -72,7 +81,7 @@
 .navbar {
   padding: 5px;
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
 .navbar ul {
@@ -85,18 +94,17 @@ justify-content: center;
 }
 
 .navbar ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
-  font-weight: bold;
   padding: 10px 70px;
 }
 
 .navbar ul li a:hover {
-  color: var(--rose-ebony);
-  text-decoration: none;
+  color: rgba(117, 117, 117, 0.916);
+    text-decoration: none;
 }
 
-
+/* 
 .cmsProjectLink {
   text-decoration: none;
   font-weight: bold;
@@ -105,4 +113,10 @@ justify-content: center;
 
 .cmsProjectLink a:hover {
   text-decoration: none;
+} */
+
+
+/* CONTACT FORM PAGE */
+.contactFormStyle {
+  padding-top: 10%;
 }

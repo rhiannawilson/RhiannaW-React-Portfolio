@@ -1,3 +1,5 @@
+// ~ CONTACT FORM ~ //
+
 // import { useState } from 'react';
 // import './styles/pages.css';
 
@@ -5,7 +7,7 @@ export default function ContactForm() {
   return(
         <>
 {/* First and Last Name input boxes  */}
-          <form>
+          <form className="contactFormStyle">
           <div className="row">
     <div className="col m-3">
       <input

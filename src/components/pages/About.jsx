@@ -1,3 +1,5 @@
+// ~ ABOUT ME PAGE ~ //
+
 import 'react';
 import './styles/pages.css';
 

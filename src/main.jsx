@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery';
+import 'popper.js';
 
 import App from './App.jsx'
 import Error from './components/pages/ErrorPage.jsx'

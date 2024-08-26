@@ -1,10 +1,11 @@
 // Purpose: 
 // this is the root component of you React application, 
 // serving as the MAIN container for all other components
+
 import { Outlet } from 'react-router-dom';
 
 import PortfolioContainer from "./components/PortfolioContainer";
-import Nav from './components/Nav';
+import Nav from './components/Navigation';
 
 // import UI components under UI folder
 // import Alert from './components/pages/UI/Alert'
@@ -16,10 +17,9 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-<>    
+    <>
       {/* <Alert type={alertType} message={message} />; */}
-{/* <Nav /> */}
-<Nav />
+      <Nav />
       <PortfolioContainer />
       <Outlet />
     </>

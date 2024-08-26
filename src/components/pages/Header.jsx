@@ -1,3 +1,5 @@
+// ~ HEADER PAGE ~ //
+
 // Here we are importing a CSS file as a dependency
 import 'react';
 import './styles/pages.css';
