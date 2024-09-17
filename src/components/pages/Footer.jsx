@@ -19,6 +19,7 @@ function Footer() {
 
       <footer style={styles.footerStyle} className="footer">
       <p style={styles.paraStyle}>&copy; Rhianna Wilson. 2024 Portfolio. All rights reserved.</p>
+    
         </footer>
 
       </div>

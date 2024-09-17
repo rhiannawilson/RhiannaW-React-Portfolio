@@ -20,17 +20,32 @@
   padding: 0;
   max-width: 100%;
   max-height: 100vh;
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
   font-family:'Times New Roman', Times, serif;
   background-image: url("./components/pages/pageAssets/shadowBg2.jpg");
-  background-size: 100vw 100vh;
+  background-size:auto;
   background-repeat: no-repeat;
-  overflow: auto;
+  overflow:auto;
 
 } 
 
+
+.certificates {
+ background-color: rgb(195,186,173, 0.5);
+}
+
+.certiText {
+  opacity: 1;
+
+}
+.projectsMain {
+  background-color: rgb(244,244,244, 0.8);
+}
 
 
 /* .rwPic img {

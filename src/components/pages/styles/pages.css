@@ -77,31 +77,46 @@
 }
  */
 
+ .navbar-container {
+ display: flex;
 
-.navbar {
-  padding: 5px;
-  display: flex;
-  justify-content: center;
+}
+ .navbar {
+padding: 2px;
+
 }
 
 .navbar ul {
   list-style-type: none;
+  display: flex; 
+  padding-left: 0;
+  margin-bottom: 0;
   align-items: center;
+  
 }
 
 .navbar ul li {
   font-size: 1.2em;
+  margin-right: 20px; 
+  display: flex;
+  align-items: center; 
+  
+}
+
+.navbar ul li:last-child {
+  margin-right: 0; 
 }
 
 .navbar ul li a {
   color: black;
   text-decoration: none;
-  padding: 10px 70px;
+  padding: 10px 20px; 
+  display: inline-block;
 }
 
 .navbar ul li a:hover {
   color: rgba(117, 117, 117, 0.916);
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* 
@@ -120,3 +135,6 @@
 .contactFormStyle {
   padding-top: 10%;
 }
+
+
+
