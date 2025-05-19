@@ -26,33 +26,53 @@ https://rmw-netlify-deployment.netlify.app/
 ## Directory Structure
 ```  
 ├── RHIANNAW-REACT-PORTFOLIO
-    ├── dist/
-    ├── node_modules/ 
-    ├── public/
-        ├── vite.svg
-    ├── src/ 
-        ├── assets/ 
-        ├── components/
-            ├── pages/
-                ├── aboutme.jsx
-                ├── contact.jsx
-        ├── Footer.jsx
-        ├── Header.jsx
-        ├── HomePage.jsx
-        ├── Nav.jsx  
-    ├── .eslintrc.cjs 
-    ├── .gitignore
-    ├── index.html 
-    ├── LICENSE   
-    ├── package-lock.json
-    ├── package.json
-    ├── README.md 
-    └── vite.config.js  
+├── dist/
+├── node_modules/ 
+├── public/
+    ├── _redirects
+    ├── animation.js  
+    ├── vite.svg
+├── src/ 
+    ├── assets/ 
+        ├── favicon_io-bg
+        ├── PortfolioColourPallette.png
+        ├── ViewOfProject.png
+    ├── components/
+        ├── pages/
+            ├── pageAssets
+            ├── styles
+                ├── Footer.css
+                ├── pages.css               
+            ├── UI
+                ├── Alert.jsx
+                ├── Navibar.jsx
+            ├── About.jsx
+            ├── ContactForm.jsx
+            ├── ErrorPage.jsx
+            ├── Footer.jsx
+            ├── Header.jsx
+            ├── HomePage.jsx
+            ├── Projects.jsx
+        ├── Navigation.jsx
+        ├── PortfolioContainer.jsx
+    ├── App.css
+    ├── App.jsx
+    ├── index.css
+    ├── Main.jsx
+├── .eslintrc.cjs 
+├── .gitignore
+├── AFUTURE.md
+├── index.html 
+├── LICENSE   
+├── package-lock.json
+├── package.json
+├── README.md 
+└── vite.config.js  
 ```
 
 ## Appearance & Functionality 
 #### View of Project
->![View of ]()
+>![View of Colour Pallette](./src/assets/PortfolioColourPallette.png)
 
 [Back to Table of Contents](#table-of-contents)
 

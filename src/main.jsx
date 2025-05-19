@@ -52,7 +52,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} /> 
  );
       
-// // main.jsx renders your App.jsx file 
+// // main.jsx renders (gives to) your App.jsx file 
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
     //     <App/>

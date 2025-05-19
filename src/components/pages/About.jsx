@@ -6,7 +6,7 @@ import './styles/pages.css';
 function About() {
     const text = 'About'
     return (
-    <div className="about">
+    <div className="about p-5 m-4">
         <h3><strong>{text}</strong></h3>
 <p>Over the last six months, I have had the privilege of studying at the University of Sydney, expanding and developing skills in various programming technologies. In 2020, with a strong focus on frontend development, I mastered HTML5 and CSS3, completing Codecademy course which opened the doors into the world of website development.
 </p> 

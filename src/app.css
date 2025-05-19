@@ -13,68 +13,68 @@
 {
   color: var(--rose-ebony);
 } */ 
-
+/* -------------------------
+   RESET & BASE STYLES
+------------------------- */
 * {
-  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
-  max-width: 100%;
-  max-height: 100vh;
-  font-family: "Baskervville SC", serif;
-  font-weight: 400;
-  font-style: normal;
 }
+
+#root {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 
 body {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   background-image: url("./components/pages/pageAssets/shadowBg2.jpg");
-  background-size:auto;
+  background-size: auto;
   background-repeat: no-repeat;
-  overflow:auto;
-
-} 
-
-
-.certificates {
- background-color: rgb(195,186,173, 0.5);
 }
 
-.certiText {
-  opacity: 1;
-
+/* -------------------------
+   GLOBAL UTILITY CLASSES
+------------------------- */
+.summary {
+  font-size: calc(0.1rem + 1.2vw);
+  line-height: 1.8;
+  font-weight: 400;
 }
+
+/* -------------------------
+   HOMEPAGE STYLES
+------------------------- */
+.experience {
+  background-color: rgba(195, 186, 173, 0.5);
+}
+
 .projectsMain {
-  background-color: rgb(244,244,244, 0.8);
+  background-color: rgba(244, 244, 244, 0.8);
 }
 
+/* -------------------------
+   MEDIA QUERIES
+------------------------- */
+@media (max-width: 768px) {
+  .summary {
+    font-size: 1rem;
+    text-align: center;
+  }
 
-/* .rwPic img {
-max-width: 100%;
-max-height: 100%;
-} */
-
-
-/* .rwPic {
-  background-color: #e9e7e5;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 10%;
-  padding: 10px;
-  margin: 5px;
-} */
-
-/* Header section - Location under the nav bar */
-/* Content - Rhianna Wilson */
-
-/* header {
-  padding-top: 38px;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
+  .experience, .projectsMain {
+    padding: 1rem;
+  }
 }
 
-header h1 {
-  align-items: inherit;
-  margin: 0;
-  font-size: 2.5em;
-  font-variant: small-caps;
-} */
+:focus {
+  outline: 3px outset #AB947E; /* or another brand color */
+  outline-offset: 3px;
+  border-radius: 2px;
+
+}

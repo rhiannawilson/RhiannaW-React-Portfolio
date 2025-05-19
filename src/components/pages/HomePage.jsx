@@ -3,35 +3,70 @@
 import pfPicNoBg from './pageAssets/pfPicNoBg.png';
 
 export default function HomePage() {
-  // p-5 m-3
   return (
 
 // main homepage div
-    <div>
+
+<div className="container-fluid">
 
 
     {/*     // SECTION 1 */}
-    <div className="container-fluid p-5">
-      <div className='row'>
+    <div className="row p-5">
         <div className='col-4'>
-          <img src={pfPicNoBg} width={250} height={100} className="img-thumbnail float-end img-fluid shadow" alt="Author's profile picture" />
+          <img 
+          src={pfPicNoBg} 
+          width={250} 
+          height={100} 
+          className="img-thumbnail float-end img-fluid shadow" 
+          alt="Author's profile picture" 
+          />
         </div>
 
         <div className="col">
           <div className="panel-success">
-            <h1 className="panel-heading p-3">Rhianna Wilson</h1>
+            <h1 className="panel-heading p-3">
+              <br />
+              Rhianna Wilson
+              </h1>
             <div className="panel-body m-3">
-              <h3>UX | UI Designer and Web Developer</h3></div>
+              <h3>UX | UI Designer and Web Developer</h3>
+              </div>
+              <h5 className="summary m-3">
+              {/* <br></br><strong>Full Stack Web Developer</strong> with 10+ years experience in Office and Event Management background. <br></br><br></br>An adaptable, solutions-oriented professional, logically minded, with various transferable skills and advanced IT proficiency, including experience with <strong>project management</strong> tools such as <strong>Agile methodologies and Scrum principles</strong>. <br></br>  */}
+
+              </h5>
           </div>
-        </div>
+
         {/*END OF PROFILE PICTURE   */}
         {/* END OF SECTION 1 */}
 
+
+ {/* SECTION 3 */}
+ <div className='experience flex-wrap p-5 m-5 mt-5 text-end'>  
+        <h3>Experience</h3>
+
+        <h4>University of Sydney January - August 2024</h4>
+        <h5>Frontend Technology</h5>
+        <p>- HTML5, CSS3, TailwindCSS, JavaScript, Bootstrap, jQuery, React</p>
+
+        <h5>Backend Technology</h5>
+        <p>- Node, Express.js, FastAPI, MySQL, PostgreSQL, MongoDB, Sequelize, GraphQL</p>
+
+
+        <h5>Developer Heading</h5>
+        <p>- Visual Studio Code, Git, GitHub, GitLab, CLI, Wordpress, Render, Apollo</p>
+
+        <h5>Operating Systems</h5>
+        <p>- Windows, iOS MacOS</p>
+        </div>
+
+        {/* END OF SECTION 3 */}
+
 {/* ----------------------------------------------------------------------
  */}
-        {/* SECTION 2 */}
-        <div className='certificates flex-wrap p-5 m-5 mt-5 text-end'>
-        <h3 className='certiText'>Certificates</h3>
+        {/* SECTION 3 */}
+        <div className='certificates flex-wrap p-5 m-5 mt-5 text-start'>
+        <h3 className='certiText'>Resume</h3>
 
         <h4>University of Sydney January - August 2024</h4>
         <h5>Frontend Technology</h5>
@@ -49,16 +84,16 @@ export default function HomePage() {
         </div>
 
 
-        {/* END OF SECTION 2 */}
+        {/* END OF SECTION 3 */}
 
 
 {/* -------------------------------------------------- */}
 
-        {/* SECTION 3 */}
-        <div className='projectsMain'>
+        {/* SECTION 4 */}
+        <div className='projectsMain mb-5'>
           <h1>Resume</h1>
           <p>this is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a <br></br>paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is<br></br> a paragraphthis is a paragraphthis is a paragraphthis is<br></br> a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis <br></br>is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraph<br></br>this is a parag<br></br>raphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthi<br></br>s is a paragraphthis is a paragraphthis is a paragraph</p>
-        {/* END OF SECTION 3 */}
+        {/* END OF SECTION 4 */}
 
 
 

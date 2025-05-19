@@ -12,6 +12,15 @@ Github Repo:
 Netlify link:
 https://rmw-netlify-deployment.netlify.app/
 
+Colour pallette:
+Seasalt light 1 - #FAF9F9
+Seasalt light 2 - #F8F8F8
+Timberwolf (lightest) - #E1DEDA
+Timberwolf (medium) - #D7D2CC
+Timberwolf (darkest) - #CFC7BC
+
+>![View of Colour Pallette](./src/assets/PortfolioColourPallette.png)
+
 To Do:
 
 1. About Me
