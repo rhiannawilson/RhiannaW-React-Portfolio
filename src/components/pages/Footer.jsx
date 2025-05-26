@@ -73,8 +73,8 @@ import './styles/Footer.css';
 function Footer() {
   return (
     <footer className="w-100 text-end p-3 bg-light shadow-sm mt-auto">
-      <p className="mb-0 text-muted">
-        &copy; Rhianna Wilson. 2024 Portfolio. All rights reserved.
+      <p className="mb-0">
+        &copy; Rhianna Wilson 2025 Portfolio. All rights reserved.
       </p>
     </footer>
   );

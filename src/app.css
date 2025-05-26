@@ -18,11 +18,14 @@
 ------------------------- */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 #root {
-  height: 100%;
+  height: 100%; 
+  color: #593D3B;
+  font-family: 'Cormorant Garamond', serif;
+
 }
 
 html, body {
@@ -32,7 +35,6 @@ html, body {
 
 
 body {
-  font-family: 'Times New Roman', Times, serif;
   background-image: url("./components/pages/pageAssets/shadowBg2.jpg");
   background-size: auto;
   background-repeat: no-repeat;
@@ -50,6 +52,16 @@ body {
 /* -------------------------
    HOMEPAGE STYLES
 ------------------------- */
+
+.authorsName {
+  font-size: 82px;
+}
+
+.authorsBio {
+  font-size: 62px;
+}
+
+
 .experience {
   background-color: rgba(195, 186, 173, 0.5);
 }

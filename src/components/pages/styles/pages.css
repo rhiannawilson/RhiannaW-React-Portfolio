@@ -77,47 +77,77 @@
 }
  */
 
- .navbar-container {
- display: flex;
 
-}
- .navbar {
-padding: 2px;
 
-}
-
-.navbar ul {
-  list-style-type: none;
-  display: flex; 
-  padding-left: 0;
-  margin-bottom: 0;
-  align-items: center;
-  
-}
-
-.navbar ul li {
-  font-size: 1.2em;
-  margin-right: 20px; 
+ /* Navbar Container */
+.navbar-container {
   display: flex;
-  align-items: center; 
+  width: 100%;
+}
+
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  z-index: 1030;
   
 }
 
+/* Navbar List Reset */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar List Items */
+.navbar ul li {
+  font-size: 1.1rem;
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove margin on last nav item */
 .navbar ul li:last-child {
-  margin-right: 0; 
+  margin-right: 0;
 }
 
+/* Navbar Links */
 .navbar ul li a {
-  color: black;
+  color: #333;
   text-decoration: none;
-  padding: 10px 20px; 
-  display: inline-block;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease;
+  font-weight: 500;
+  color: #593D3B;
+
 }
 
+/* Hover State */
 .navbar ul li a:hover {
-  color: rgba(117, 117, 117, 0.916);
+  color: #593D3B; /* Your brand tone */
   text-decoration: none;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar ul li:last-child {
+    margin-bottom: 0;
+  }
+}
+
 
 /* 
 .cmsProjectLink {

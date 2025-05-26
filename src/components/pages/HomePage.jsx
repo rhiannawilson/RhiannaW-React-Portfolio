@@ -1,6 +1,7 @@
 // ~ HOME PAGE ~ 3 SECTIONS// 
 
 import pfPicNoBg from './pageAssets/pfPicNoBg.png';
+import { Link } from "react-router-dom"; 
 
 export default function HomePage() {
   return (
@@ -12,7 +13,7 @@ export default function HomePage() {
 
     {/*     // SECTION 1 */}
     <div className="row p-5">
-        <div className='col-4'>
+        <div className='col-4 mt-3'>
           <img 
           src={pfPicNoBg} 
           width={250} 
@@ -24,12 +25,12 @@ export default function HomePage() {
 
         <div className="col">
           <div className="panel-success">
-            <h1 className="panel-heading p-3">
+            <h1 className="authorsName panel-heading">
               <br />
               Rhianna Wilson
               </h1>
             <div className="panel-body m-3">
-              <h3>UX | UI Designer and Web Developer</h3>
+              <h3 className="authorsBio">Junior Web Developer</h3>
               </div>
               <h5 className="summary m-3">
               {/* <br></br><strong>Full Stack Web Developer</strong> with 10+ years experience in Office and Event Management background. <br></br><br></br>An adaptable, solutions-oriented professional, logically minded, with various transferable skills and advanced IT proficiency, including experience with <strong>project management</strong> tools such as <strong>Agile methodologies and Scrum principles</strong>. <br></br>  */}
@@ -41,8 +42,27 @@ export default function HomePage() {
         {/* END OF SECTION 1 */}
 
 
- {/* SECTION 3 */}
- <div className='experience flex-wrap p-5 m-5 mt-5 text-end'>  
+
+ {/* SECTION 3b */}
+ <div className='homepage-bio flex-wrap p-5 mt-5 text-end shadow'>  
+  <p>
+    Hi, I’m Rhianna — a junior web developer with a love for clean code and thoughtful design.
+    After years of curiosity and creative exploration, I took the leap and trained as a full stack engineer through the University of Sydney.
+    Now, I build responsive, intuitive web applications using tools like React, Node.js, and MongoDB.
+    Whether I’m styling a sleek interface or structuring a robust backend, I’m driven by a genuine passion for crafting digital experiences that feel as good as they look.
+  </p>
+  <Link to="/projects" className="view-work-btn">
+  View My Work
+</Link>
+</div>
+        {/* END OF SECTION 3 */}
+
+{/* ----------------------------------------------------------------------
+ */}
+
+
+<div className='experience flex-wrap p-5 mt-5 text-end shadow'>  
+
         <h3>Experience</h3>
 
         <h4>University of Sydney January - August 2024</h4>
@@ -60,12 +80,10 @@ export default function HomePage() {
         <p>- Windows, iOS MacOS</p>
         </div>
 
-        {/* END OF SECTION 3 */}
 
-{/* ----------------------------------------------------------------------
- */}
+
         {/* SECTION 3 */}
-        <div className='certificates flex-wrap p-5 m-5 mt-5 text-start'>
+        <div className='certificates flex-wrap p-5 m-5 mt-5 text-start shadow'>
         <h3 className='certiText'>Resume</h3>
 
         <h4>University of Sydney January - August 2024</h4>
@@ -90,7 +108,7 @@ export default function HomePage() {
 {/* -------------------------------------------------- */}
 
         {/* SECTION 4 */}
-        <div className='projectsMain mb-5'>
+        <div className='projectsMain mb-5 shadow'>
           <h1>Resume</h1>
           <p>this is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a <br></br>paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is<br></br> a paragraphthis is a paragraphthis is a paragraphthis is<br></br> a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis <br></br>is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraph<br></br>this is a parag<br></br>raphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthi<br></br>s is a paragraphthis is a paragraphthis is a paragraph</p>
         {/* END OF SECTION 4 */}
