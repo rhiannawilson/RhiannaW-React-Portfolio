@@ -16,7 +16,7 @@ export default function Navibar({ links }) {
         style={{ width: "100%" }}
       >
         <Container fluid className="d-flex justify-content-between align-items-center">
-          <Navbar.Brand href="/" className="side-navbar-brand">333</Navbar.Brand>
+          <Navbar.Brand href="/" className="side-navbar-brand"></Navbar.Brand>
           <ul className="nav d-flex flex-row m-0">
             {links.map((link, index) => (
               <li className="nav-item px-2" key={index}>
