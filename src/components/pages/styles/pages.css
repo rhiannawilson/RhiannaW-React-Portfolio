@@ -1,82 +1,6 @@
-
-/* HOME PAGE */
-/* Navibar.css */
-/* 
-.side-navbar {
-  position: fixed;
-  top: 0;
-  right: 0; 
-  height: 100%;
-  width: 250px; 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  z-index: 1040;
-}
-
-.side-navbar-brand {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-
-}
-
-.side-navbar-collapse {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  
-}
-
-.navbar-nav {
-  width: 100%;
-  padding-left: 0;
-}
-
-.nav-item {
-  width: 100%;
-}
-
-.nav-item a {
-  width: 100%;
-  padding: 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
- */
-
-
-/* ABOUT PAGE */
-/* 
-.about {
- background-color: pink;
-}
- */
-
-
-
-/* PROJECTS PAGE */
-/* .projects {
-    background-color: black;
-
-} */
- 
-/* .projs {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-} */
-
-
-
-/* CONTACT FORM PAGE */
-/* .contactform-container {
-    background-color: aqua;
-}
- */
-
+/* HOMEPAGE
+This pages.css will be where all the styling for each page 
+will be, whilst app.css is broader styling for entire site theme */
 
 
  /* Navbar Container */
@@ -115,16 +39,34 @@
   margin-right: 0;
 }
 
-/* Navbar Links */
+
 .navbar ul li a {
-  color: #333;
+  color: #593D3B;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  transition: color 0.2s ease;
   font-weight: 500;
-  color: #593D3B;
 
+  border: 2px solid transparent;       /* Invisible border initially */
+  border-radius: 8px;                  /* Optional: rounded corners */
+  transition: 
+    border-color 0.4s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  
+  outline: none;                       /* Remove default browser outline */
 }
+
+/* Show a border smoothly on hover/focus */
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  border-color: #AB947E; /* 'beaver' tone */
+  box-shadow: 0 0 6px rgba(171, 148, 126, 0.4); /* Optional soft glow */
+  background-color: rgba(195, 169, 149, 0.1);  /* Optional background effect */
+}
+
+/* Remove any border/glow on click (active state) */
+
+
 
 /* Hover State */
 .navbar ul li a:hover {
@@ -148,17 +90,39 @@
   }
 }
 
+/* HOMEPAGE View My CV Call to Action*/
 
-/* 
-.cmsProjectLink {
+/* HOMEPAGE View My CV Call to Action */
+.view-cv-btn {
+  display: inline-block;
+  background-color: var(--khaki);
+  color: var(--white);
+  padding: 10px 25px;
   text-decoration: none;
-  font-weight: bold;
-  padding: 10px 70px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: 2px solid var(--beaver); /* 🟤 Keep this border always visible */
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none; /* 🔇 Remove browser focus outline */
 }
 
-.cmsProjectLink a:hover {
-  text-decoration: none;
-} */
+/* 🖱️ Add soft glow & color transition on hover/focus */
+.view-cv-btn:hover,
+.view-cv-btn:focus {
+  background-color: var(--beaver);
+  box-shadow: 0 0 6px rgba(171, 148, 126, 0.5);
+  border-color: var(--rose-ebony);
+  color: var(--white);
+}
+
+/* ⬇️ Optional subtle feedback on click — but no border removal */
+.view-cv-btn:active {
+  transform: scale(0.98);
+  box-shadow: none;
+  border-color: var(--rose-ebony);
+}
+
+
 
 
 /* CONTACT FORM PAGE */

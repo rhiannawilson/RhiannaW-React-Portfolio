@@ -25,7 +25,10 @@
   height: 100%; 
   color: #593D3B;
   font-family: 'Cormorant Garamond', serif;
-
+  --khaki: #C3A995;
+  --beaver: #AB947E;
+  --rose-ebony: #593D3B;
+  --white: #ffffff;
 }
 
 html, body {

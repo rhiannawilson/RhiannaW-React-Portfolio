@@ -2,7 +2,8 @@
 
 // Here we are importing a CSS file as a dependency
 import 'react';
-import './styles/pages.css';
+import '../pages/styles/pages.css';
+
 
 
 // Header section - Location under the nav bar

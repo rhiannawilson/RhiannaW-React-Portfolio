@@ -9,16 +9,32 @@ export default function Navigation() {
   return (
     <Navibar
       links={[
-        <Link key={1} to="/">
+        <Link
+          key={1}
+          to="/"
+          onMouseDown={(e) => e.currentTarget.blur()}
+        >
           Home
         </Link>,
-        <Link key={2} to="/projects">
+        <Link
+          key={2}
+          to="/projects"
+          onMouseDown={(e) => e.currentTarget.blur()}
+        >
           Projects
         </Link>,
-        <Link key={3} to="/about">
+        <Link
+          key={3}
+          to="/about"
+          onMouseDown={(e) => e.currentTarget.blur()}
+        >
           About
         </Link>,
-        <Link key={4} to="/contact">
+        <Link
+          key={4}
+          to="/contact"
+          onMouseDown={(e) => e.currentTarget.blur()}
+        >
           Contact
         </Link>
       ]}

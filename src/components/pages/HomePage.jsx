@@ -1,15 +1,32 @@
 // ~ HOME PAGE ~ 3 SECTIONS// 
-
+import React, { useEffect } from 'react';
 import pfPicNoBg from './pageAssets/pfPicNoBg.png';
-import { Link } from "react-router-dom"; 
+// import { Link } from "react-router-dom"; 
+import '../pages/styles/pages.css';
+import { pages } from './UI/routes';  // Adjust relative path as needed
+import NextArrow from './UI/NextArrow';
+import PageWrapper from '../pages/UI/PageWrapper';
+
 
 export default function HomePage() {
+useEffect(() => {
+  const button = document.querySelector('.view-cv-btn');
+  if (button) {
+    const handleMouseUp = () => button.blur();
+    button.addEventListener('mouseup', handleMouseUp);
+
+    return () => {
+      button.removeEventListener('mouseup', handleMouseUp);
+    };
+  }
+}, []);
+
+
   return (
 
 // main homepage div
-
+ <PageWrapper>
 <div className="container-fluid">
-
 
     {/*     // SECTION 1 */}
     <div className="row p-5">
@@ -30,7 +47,8 @@ export default function HomePage() {
               Rhianna Wilson
               </h1>
             <div className="panel-body m-3">
-              <h3 className="authorsBio">Junior Web Developer</h3>
+              <h3 className="authorsBio">Junior Web Developer</h3>       <NextArrow />
+
               </div>
               <h5 className="summary m-3">
               {/* <br></br><strong>Full Stack Web Developer</strong> with 10+ years experience in Office and Event Management background. <br></br><br></br>An adaptable, solutions-oriented professional, logically minded, with various transferable skills and advanced IT proficiency, including experience with <strong>project management</strong> tools such as <strong>Agile methodologies and Scrum principles</strong>. <br></br>  */}
@@ -42,7 +60,6 @@ export default function HomePage() {
         {/* END OF SECTION 1 */}
 
 
-
  {/* SECTION 3b */}
  <div className='homepage-bio flex-wrap p-5 mt-5 text-end shadow'>  
   <p>
@@ -51,9 +68,15 @@ export default function HomePage() {
     Now, I build responsive, intuitive web applications using tools like React, Node.js, and MongoDB.
     Whether I’m styling a sleek interface or structuring a robust backend, I’m driven by a genuine passion for crafting digital experiences that feel as good as they look.
   </p>
-  <Link to="/projects" className="view-work-btn">
-  View My Work
-</Link>
+  <a
+  href="/Rhianna-Wilson-CV.pdf"
+  className="view-cv-btn"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View My CV
+</a>
+
 </div>
         {/* END OF SECTION 3 */}
 
@@ -119,6 +142,7 @@ export default function HomePage() {
       </div>
     </div>
     </div>
+    </PageWrapper>
   );
 }
 

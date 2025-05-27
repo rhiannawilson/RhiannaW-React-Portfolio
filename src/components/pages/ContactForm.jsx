@@ -2,9 +2,11 @@
 
 // import { useState } from 'react';
 // import './styles/pages.css';
+import PageWrapper from '../pages/UI/PageWrapper';
 
 export default function ContactForm() {
   return(
+    <PageWrapper>
         <>
 {/* First and Last Name input boxes  */}
           <form className="contactFormStyle">
@@ -62,14 +64,6 @@ export default function ContactForm() {
 
   {/* end of contactform return */}
 </>
+</PageWrapper>
   )
 }
-
-
-
-
-
-
-
-
-
