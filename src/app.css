@@ -64,10 +64,25 @@ body {
   font-size: 62px;
 }
 
-
 .experience {
   background-color: rgba(195, 186, 173, 0.5);
 }
+
+/* .side-by-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.experience,
+.CV {
+  flex: 1;
+  min-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} */
 
 .projectsMain {
   background-color: rgba(244, 244, 244, 0.8);
@@ -84,6 +99,7 @@ body {
 
   .experience, .projectsMain {
     padding: 1rem;
+    border: red;
   }
 }
 
