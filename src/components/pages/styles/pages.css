@@ -40,7 +40,7 @@ will be, whilst app.css is broader styling for entire site theme */
 }
 
 
-.navbar ul li a {
+.navbar ul li a:not(.side-navbar-brand) {
   color: #593D3B;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -90,7 +90,47 @@ will be, whilst app.css is broader styling for entire site theme */
   }
 }
 
-/* HOMEPAGE View My CV Call to Action*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR RMW */
+
+.side-navbar-brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--rose-ebony);
+  letter-spacing: 2px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.side-navbar-brand:hover {
+  color: var(--beaver);
+  transform: scale(1.05);
+}
+
+
+/* NAVBAR RMW */
+
+
+
+
+
+
+
+
+
+
+
 
 /* HOMEPAGE View My CV Call to Action */
 .view-cv-btn {
@@ -122,13 +162,6 @@ will be, whilst app.css is broader styling for entire site theme */
   border-color: var(--rose-ebony);
 }
 
-
-
-
-/* CONTACT FORM PAGE */
-.contactFormStyle {
-  padding-top: 10%;
-}
 
 
 

@@ -15,17 +15,20 @@ export default function Navibar({ links }) {
         className="shadow-lg py-1"
         style={{ width: "100%" }}
       >
-        <Container fluid className="d-flex justify-content-between align-items-center">
-          <Navbar.Brand href="/" className="side-navbar-brand"></Navbar.Brand>
-          <ul className="nav d-flex flex-row m-0">
-            {links.map((link, index) => (
-              <li className="nav-item px-2" key={index}>
-                {link}
-              </li>
-            ))}
-          </ul>
-        </Container>
-      </Navbar>
+<Container fluid className="d-flex justify-content-between align-items-center">
+  <Navbar.Brand href="/" className="side-navbar-brand">RMW</Navbar.Brand>
+
+  <ul className="nav d-flex flex-row m-0">
+    {links.map((link, index) => (
+      <li className="nav-item px-2" key={index}>
+        {link}
+      </li>
+    ))}
+  </ul>
+</Container>
+
+</Navbar>
+
     </div>
   );
 }
