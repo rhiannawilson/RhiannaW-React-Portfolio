@@ -2,7 +2,10 @@ import PropTypes from 'prop-types';
 import { useRef } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import '../styles/pages.css'; // Your custom styles
+import '../styles/pages.css';
+
+
+
 
 export default function Navibar({ links }) {
   const navRef = useRef(null);

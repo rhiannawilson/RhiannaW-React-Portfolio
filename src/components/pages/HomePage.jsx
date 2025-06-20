@@ -9,7 +9,6 @@ import PageWrapper from '../pages/UI/PageWrapper';
 import TopProjects from './TopProjects';
 
 
-
 export default function HomePage() {
   useEffect(() => {
     const button = document.querySelector('.view-cv-btn');
@@ -25,14 +24,13 @@ export default function HomePage() {
 
 
   return (
-
     // main homepage div
     <PageWrapper>
       <div className="container-fluid">
 
         {/*     // SECTION 1 */}
         <div className="row p-5">
-          <div className='row-1 mt-3'>
+          <div className='row-1 mt-4'>
             <img
               src={pfPicNoBg}
               width={250}
@@ -43,10 +41,11 @@ export default function HomePage() {
             <div className="col w-50">
               <div className="panel-success">
                 <h1 className="authorsName m-5 panel-heading">
-                  Rhianna Wilson
+                  Rhianna
                 </h1>
                 <div className="panel-body m-5">
-                  <h3 className="authorsBio">Junior Web Developer</h3>       <NextArrow />
+                  <h3 className="authorsBio">Web Developer</h3>       <NextArrow />
+{/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
 
                 </div>
                 <h5 className="summary m-3">
