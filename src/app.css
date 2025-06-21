@@ -13,6 +13,7 @@
 {
   color: var(--rose-ebony);
 } */ 
+ 
 /* -------------------------
    RESET & BASE STYLES
 ------------------------- */
@@ -41,7 +42,15 @@ body {
   background-image: url("./components/pages/pageAssets/shadowBg2.jpg");
   background-size: auto;
   background-repeat: no-repeat;
+overflow-x: hidden;
+
 }
+
+/* -------------------------
+   END OF RESET & BASE STYLES
+------------------------- */
+
+
 
 /* -------------------------
    GLOBAL UTILITY CLASSES
@@ -53,19 +62,18 @@ body {
 }
 
 /* -------------------------
+   END OF GLOBAL UTILITY CLASSES
+------------------------- */
+
+
+
+
+/* -------------------------
    HOMEPAGE STYLES
 ------------------------- */
 
-.authorsName {
-  font-size: 82px;
-}
-
-.authorsBio {
-  font-size: 62px;
-}
-
 .experience {
-  background-color: rgba(195, 186, 173, 0.5);
+  background-color: WHITE;
 }
 
 /* .side-by-side {
@@ -122,8 +130,8 @@ body {
 }
 
 .btn-custom:hover {
-  background-color: var(--beaver);
-  border-color: var(--beaver);
+  background-color: var(--rose-ebony);
+  border-color: var(--rose-ebony);
   color: var(--white);
 }
 
@@ -149,4 +157,19 @@ body {
   outline-offset: 3px;
   border-radius: 2px;
 
+}
+@media (max-width: 768px) {
+  .animated-main {
+    transform: scale(0.6);
+    transform-origin: left top;
+    margin-top: 1rem;
+  }
+
+  .marker {
+    display: none; /* Optional: hide marker on small screens */
+  }
+
+  .letter {
+    font-size: 1.5rem; /* You can scale font size too if needed */
+  }
 }
