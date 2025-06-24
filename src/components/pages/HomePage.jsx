@@ -26,16 +26,12 @@ export default function HomePage() {
   return (
     <PageWrapper>
       <div>
-      <div className="container-fluid">
+      <div className="pt-3 container-fluid">
 
 
-
-              {/* SECTION 1 */}
-              {/* HOMEPAGE IMG & ANIMATED NAME */}
-
-       <div className="row p-5 align-items-center text-center text-start">
+<div className="row p-5 align-items-center">
   {/* Image Column */}
-  <div className="img col-md-3 mb-4 mb-md-0">
+  <div className="col-md-3 pl-2 mb-4">
     <img
       src={pfPicNoBg}
       width={250}
@@ -45,48 +41,31 @@ export default function HomePage() {
     />
   </div>
 
-  {/* Animated Name */}
+  {/* Animated Name & Bio together */}
+  <div className="col-md-8">
+    {/* Animated Name */}
+    <div className="pt-3 mb-4">
+      <AnimatedName />
+    </div>
 
-<div className="col-md-8 d-flex justify-content-center justify-content-md-start">
-  <AnimatedName />
-</div>
-
-
-
-              {/* END OF HOMEPAGE IMG & ANIMATED NAME */}
-              {/* END OF SECTION 1 */}
-
-
-
-
-            
-
-            {/* SECTION 2 */}
-            {/* HOMEBIO 2 */}
-
-            <div className='HomeBio'>
-              <div className='homepage-bio flex-wrap p-5 text-center fs-5 m-5 shadow'>
-                <p>
-                  Clean code and thoughtful design. <br></br>
-                  Beginning my journey when the world hit a global pause in 2020, I delved into my curiosity and creative exploration, and <br></br> trained as a software engineer through Bootcamp EDX, University of Sydney.
-                  <br></br><br></br>Now, I build responsive, intuitive web applications using tools like React, Node.js, and MongoDB.
-                  Whether I’m styling a sleek interface or structuring a robust backend, I’m driven by a genuine passion for crafting raw, earthy digital experiences that feel as good as they look.
-                </p>
-                <a
-                  href="/Rhianna-Wilson-CV.pdf"
-                  className="view-cv-btn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View My CV
-                </a>
-              </div>
-
-              {/* END OF HOMEBIO */}
-              {/* END OF SECTION 2 */}
-
-
-
+    {/* Bio & CV Button */}
+    <div className="homepage-bio shadow p-4">
+      <p className="fs-5 text-start">
+        Clean code and thoughtful design. <br />
+        Beginning my journey when the world hit a global pause in 2020, I delved into my curiosity and creative exploration, and trained as a software engineer through Bootcamp EDX, University of Sydney. <br /><br />
+        Now, I build responsive, intuitive web applications using tools like React, Node.js, and MongoDB.
+        Whether I’m styling a sleek interface or structuring a robust backend, I’m driven by a genuine passion for crafting raw, earthy digital experiences that feel as good as they look.
+      </p>
+      <a
+        href="/Rhianna-Wilson-CV.pdf"
+        className="view-cv-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View My CV
+      </a>
+    </div>
+  </div>
 
 
 
@@ -135,7 +114,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </div>
 
       {/* END OF SECTION 3 */}
       {/* END OF HOMEPAGE PROJECTS & EXPERIENCE CONTAINER */}

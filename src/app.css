@@ -30,12 +30,18 @@
   --beaver: #AB947E;
   --rose-ebony: #593D3B;
   --white: #ffffff;
+    
 }
 
 html, body {
   height: 100%;
   scroll-behavior: smooth;
+  
 }
+*{
+  /* border: 1px solid red; */
+}
+
 
 
 body {
