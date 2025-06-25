@@ -27,7 +27,16 @@ const projects = [
     description:
       'RequestDJ is a collaborative music event app where DJs manage events and attendees submit song requests. Built with PostgreSQL, Handlebars, Tailwind CSS, and features animations using GSAP. Designed for an engaging and personalized music experience.',
   },
+  {
+    id: 4,
+    title: 'UI/UX Tips',
+    image: viewOfProject,
+    url: 'https://firstrenderweb-om91.onrender.com/',
+    description:
+      'UI/UX Tips is a community-driven Q&A platform for junior developers. Users can post questions, share answers, and upvote content. Features include authentication, upvoting, and markdown formatting. Built with MERN stack and styled using Bootstrap and custom SCSS.',
+  }
 ];
+
 
 export default function Projects() {
   return (

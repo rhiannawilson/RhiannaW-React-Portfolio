@@ -50,11 +50,10 @@ export default function HomePage() {
 
     {/* Bio & CV Button */}
     <div className="homepage-bio shadow p-4">
-      <p className="fs-5 text-start">
+      <p className="fs-5 text-center">
         Clean code and thoughtful design. <br />
-        Beginning my journey when the world hit a global pause in 2020, I delved into my curiosity and creative exploration, and trained as a software engineer through Bootcamp EDX, University of Sydney. <br /><br />
-        Now, I build responsive, intuitive web applications using tools like React, Node.js, and MongoDB.
-        Whether I’m styling a sleek interface or structuring a robust backend, I’m driven by a genuine passion for crafting raw, earthy digital experiences that feel as good as they look.
+        <br />I build responsive, intuitive web applications using tools like React, Node.js, and MongoDB.<br />
+        <br />Whether I’m styling a sleek interface or structuring a robust backend, I’m driven by a genuine passion for crafting raw, earthy digital experiences that feel as good as they look.
       </p>
       <a
         href="/Rhianna-Wilson-CV.pdf"
