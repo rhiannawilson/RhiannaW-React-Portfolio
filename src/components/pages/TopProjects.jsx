@@ -1,12 +1,12 @@
 // src/components/pages/TopProjects.jsx
-import viewOfProject from './pageAssets/ViewOfProject.jpeg';
+import ViewOfProject from './pageAssets/ViewOfProject.jpeg';
 import '../pages/styles/pages.css'; // Adjust path if needed
 
 const projects = [
   {
     id: 1,
     title: 'CMSify',
-    image: viewOfProject,
+    image: ViewOfProject,
     url: 'https://cmsify.onrender.com',
     description:
       'CMSify is a content management system for developers...',
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: 'ReciPlace',
-    image: viewOfProject,
+    image: ViewOfProject,
     url: '#',
     description:
       'ReciPlace is a web service designed to find recipes...',
@@ -22,7 +22,7 @@ const projects = [
   {
     id: 3,
     title: 'RequestDJ',
-    image: viewOfProject,
+    image: ViewOfProject,
     url: '#',
     description:
       'RequestDJ is a collaborative music event app...',

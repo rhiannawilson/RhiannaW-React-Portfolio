@@ -1,12 +1,12 @@
 
-import viewOfProject from './pageAssets/ViewOfProject.jpeg';
+import ViewOfProject from './pageAssets/ViewOfProject.jpeg';
 import PageWrapper from '../pages/UI/PageWrapper';
 
 const projects = [
   {
     id: 1,
     title: 'CMSify',
-    image: viewOfProject,
+    image: ViewOfProject,
     url: 'https://cmsify.onrender.com',
     description:
       'CMSify is a content management system for developers. It allows users to create, update, and manage blog posts in a structured format, following the MVC architecture. Built with Node.js, Express, MySQL, and Handlebars.',
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: 'ReciPlace',
-    image: viewOfProject,
+    image: ViewOfProject,
     url: '#',
     description:
       'ReciPlace is a web service designed to find recipes and restaurants based on cuisine. Users can search for meals or dining spots nearby using APIs like The Meal DB and Google Places. Features a carousel UI, personalized suggestions, and built with Bulma CSS.',
@@ -22,7 +22,7 @@ const projects = [
   {
     id: 3,
     title: 'RequestDJ',
-    image: viewOfProject,
+    image: ViewOfProject,
     url: '#',
     description:
       'RequestDJ is a collaborative music event app where DJs manage events and attendees submit song requests. Built with PostgreSQL, Handlebars, Tailwind CSS, and features animations using GSAP. Designed for an engaging and personalized music experience.',
@@ -30,7 +30,7 @@ const projects = [
   {
     id: 4,
     title: 'UI/UX Tips',
-    image: viewOfProject,
+    image: ViewOfProject,
     url: 'https://firstrenderweb-om91.onrender.com/',
     description:
       'UI/UX Tips is a community-driven Q&A platform for junior developers. Users can post questions, share answers, and upvote content. Features include authentication, upvoting, and markdown formatting. Built with MERN stack and styled using Bootstrap and custom SCSS.',
