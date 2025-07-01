@@ -8,9 +8,9 @@ function About() {
     const text = 'About'
     return (
         <PageWrapper>
-    <div className="about p-5 m-4">
-        <h3><strong>{text}</strong></h3>
-<p>Over the last six months, I have had the privilege of studying at the University of Sydney, expanding and developing skills in various programming technologies. In 2020, with a strong focus on frontend development, I mastered HTML5 and CSS3, completing Codecademy course which opened the doors into the world of website development.
+    <div className="aboutPage p-5 m-5">
+            <h2 className="display-5 aboutHeading fw-bold">About</h2>
+<p className='aboutParagraph '>Over the last six months, I have had the privilege of studying at the University of Sydney, expanding and developing skills in various programming technologies. In 2020, with a strong focus on frontend development, I mastered HTML5 and CSS3, completing Codecademy course which opened the doors into the world of website development.
 </p> 
 <p>
 Fast forward to January 2024, I enrolled on the a Full Stack Engineer course with EDX Bootcamps and the University of Sydney, and became certified in August of this year. 

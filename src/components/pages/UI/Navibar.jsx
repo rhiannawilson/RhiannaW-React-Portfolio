@@ -13,9 +13,7 @@ export default function Navibar({ links }) {
   return (
     <div ref={navRef} style={{ width: "100%" }}>
       <Navbar
-        bg="light"
-        fixed="top"
-        className="shadow-lg py-1"
+        className="py-1"
         style={{ width: "100%" }}
       >
 <Container fluid className="d-flex justify-content-between align-items-center">

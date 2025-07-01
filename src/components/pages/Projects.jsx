@@ -41,8 +41,8 @@ const projects = [
 export default function Projects() {
   return (
  <PageWrapper>    
-    <div className="projectsPage container">
-      <h1 className="mb-4">Projects</h1>
+          <div className="projectsPage container p-5 m-5">
+            <h2 className="display-5 fw-bold">Projects</h2>
       <div className="row flex-wrap p-4 m-2">
         {projects.map((project) => (
           <div

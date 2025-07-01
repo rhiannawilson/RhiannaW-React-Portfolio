@@ -1,6 +1,6 @@
 // ~ HOME PAGE ~ 3 SECTIONS// 
 import React, { useEffect } from 'react';
-import pfPicNoBg from './pageAssets/pfPicNoBg.png';
+import pfPicNoBg from './pageAssets/newPortfolioPicture-Photoroom.png';
 // import { Link } from "react-router-dom"; 
 import '../pages/styles/pages.css';
 import { pages } from './UI/routes';

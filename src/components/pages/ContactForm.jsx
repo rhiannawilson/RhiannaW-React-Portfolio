@@ -9,8 +9,8 @@ export default function ContactForm() {
     <PageWrapper>
        
 <>
-  <section className="text-center m-5">
-    <h2 className="display-5 fw-bold p-5">Let’s Connect</h2>
+  <section className="text-center p-5 m-5">
+    <h2 className="display-5 fw-bold">Let’s Connect</h2>
     <p className="lead text-muted">
       Have a question, idea, or opportunity? I'd love to hear from you.
     </p>

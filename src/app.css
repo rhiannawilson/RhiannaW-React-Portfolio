@@ -20,24 +20,42 @@
 * {
   margin: 0;
   padding: 0; 
+  
 }
 
 #root {
   height: 100%; 
-  color: #593D3B;
   font-family: 'Cormorant Garamond', serif;
-  --khaki: #C3A995;
-  --beaver: #AB947E;
-  --rose-ebony: #593D3B;
-  --white: #ffffff;
-    
+  --primary: #000000;
+/*  *Button text**
+– **Borders or minimal dividers**
+– **Icons** */
+ 
+  --Main-background: #ffffff;
+  /* 
+✅ **(Off-White)**
+– **Main background** (body)
+– **Card backgrounds**
+– **Sections for readability**
+/* /*   */
+
+
+ --Accent: #BEB7A4;
+
+/* ✅ **#BEB7A4 (Warm Beige)**
+– **Accent colour** for:
+* Button backgrounds
+* Link hover states
+* Section dividers
+* Small icon fills or borders
+* Highlight boxes or pull quotes */
 }
 
 html, body {
   height: 100%;
   scroll-behavior: smooth;
-  
 }
+
 *{
   /* border: 1px solid red; */
 }
@@ -48,7 +66,7 @@ body {
   background-image: url("./components/pages/pageAssets/shadowBg2.jpg");
   background-size: auto;
   background-repeat: no-repeat;
-overflow-x: hidden;
+  overflow-x: hidden;
 
 }
 
@@ -79,28 +97,9 @@ overflow-x: hidden;
 ------------------------- */
 
 .experience {
-  background-color: WHITE;
+  background-color: var(--Main-background);
 }
 
-/* .side-by-side {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-}
-
-.experience,
-.CV {
-  flex: 1;
-  min-width: 300px;
-  padding: 2rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-} */
-
-.projectsMain {
-  background-color: rgba(244, 244, 244, 0.8);
-}
 
 
 /* -------------------------
@@ -126,9 +125,9 @@ overflow-x: hidden;
 ------------------------- */
 
 .btn-custom {
-  background-color: var(--khaki);
-  color: var(--white);
-  border: 2px solid var(--khaki);
+  background-color: var(--Accent);
+  color: var(--primary);
+  border: 2px solid var(--primary);
   padding: 10px 25px;
   font-weight: 500;
   border-radius: 8px;
@@ -136,9 +135,9 @@ overflow-x: hidden;
 }
 
 .btn-custom:hover {
-  background-color: var(--rose-ebony);
-  border-color: var(--rose-ebony);
-  color: var(--white);
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--Accent);
 }
 
 
@@ -154,7 +153,6 @@ overflow-x: hidden;
 
   .experience, .projectsMain {
     padding: 1rem;
-    border: red;
   }
 }
 
