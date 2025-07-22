@@ -31,8 +31,8 @@ const projects = [
 
 export default function TopProjects() {
   return (
-    <div className="container my-5">
-      <h2 className="mb-4 text-center">Featured Projects</h2>
+    <div className="Featuredcontainer my-5">
+      <h2 className="mb-4 text-center">FEATURED PROJECTS</h2>
       <div className="row flex-wrap p-4 m-2">
         {projects.slice(0, 3).map((project) => (
           <div

@@ -56,9 +56,9 @@ html, body {
   scroll-behavior: smooth;
 }
 
-*{
-  /* border: 1px solid red; */
-}
+/* *{
+  border: 1px solid red;
+} */
 
 
 
@@ -96,10 +96,6 @@ body {
    HOMEPAGE STYLES
 ------------------------- */
 
-.experience {
-  background-color: var(--Main-background);
-}
-
 
 
 /* -------------------------
@@ -108,9 +104,15 @@ body {
 
 
 
+/* .featuredContainer {
+  
+} */
 
 
-
+.ExperienceContainer {
+  background-color: var(--Accent);
+  color: whitesmoke;
+}
 
 
 

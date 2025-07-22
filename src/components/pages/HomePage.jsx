@@ -76,22 +76,20 @@ export default function HomePage() {
 
 
               {/* HOMEPAGE PROJECTS CONTAINER */}
-              <div className='PEcontainer overflow-hidden'>
+              <div className='container overflow-hidden'>
                 <div className="row flex-wrap p-4 m-2">
                   <div className="row">
 
-                    <div className='experience flex-wrap p-5 mt-5 text-start shadow'>
+                    <div className='flex-wrap p-5 mt-5 text-start shadow'>
                       <TopProjects />
                     </div>
-
+</div>
                     {/* HOMEPAGE EXPERIENCE CONTAINER */}
-                    <div className="row gy-5">
 
-                      <div className="col-6">
-
-                        <div className='CV flex-wrap p-5 mt-5 text-start shadow'>
-                          <h3 className='CVText'>EXPERIENCE</h3>
-
+                        <div className='ExperienceContainer shadow-lg col gy-5 flex-wrap p-3 text-center'>
+                          <div className='ExperinceText p-3 m-5'>
+                            <h2 className='mt-5'>EXPERIENCE</h2>
+                            <div className='space'>
                           <h4>University of Sydney January - August 2024</h4>
                           <h5>Frontend Technology</h5>
                           <p>- HTML5, CSS3, TailwindCSS, JavaScript, Bootstrap, jQuery, React</p>
@@ -104,15 +102,14 @@ export default function HomePage() {
 
                           <h5>Operating Systems</h5>
                           <p>- Windows, iOS MacOS</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+              </div>
 
       {/* END OF SECTION 3 */}
       {/* END OF HOMEPAGE PROJECTS & EXPERIENCE CONTAINER */}
