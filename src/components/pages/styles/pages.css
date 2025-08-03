@@ -9,6 +9,10 @@
    NAVBAR STYLING
 ----------------------------- */
 
+/* *{
+  border: 1px solid red;
+} */
+
 .navbar-container {
   display: flex;
   width: 100%;
@@ -333,9 +337,17 @@ END OF PROJECTS PAGE
 ABOUT PAGE
 ----------------- */
 
-.aboutHeading {
-  color: #E0B251;
+.aboutPage{
+  color:#6B644C;
 }
+
+.aboutHeading {
+  color: #6B644C;
+  padding: 5%;
+  float:inline-start;
+}
+
+
 
 /* --------------
 END OF ABOUT PAGE 
