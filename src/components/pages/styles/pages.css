@@ -311,10 +311,69 @@ h1 {
   box-shadow: none;
   border-color: var(--rose-ebony);
 }
+/* -----------------------------
+   END OF VIEW MY CV BUTTON
+----------------------------- */
 
 
 
+/* -----------------------------
+   EXPERIENCE CARD SHELL 
+----------------------------- */
 
+/* Experience card shell */
+.experience-card {
+  background: #FFFFFC;
+  border-left: 6px solid var(--beaver);
+  border-radius: 16px;
+}
+
+/* Title accent dot */
+.exp-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--rose-ebony);
+  box-shadow: 0 0 0 6px rgba(171,148,126,0.2); /* beaver glow */
+}
+
+/* Skill chips */
+.skill-chips {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem .6rem;
+}
+
+.skill-chips li {
+  padding: 6px 10px;
+  font-size: .9rem;
+  border: 1px solid rgba(171,148,126,.6); /* beaver */
+  color: #593D3B;                          /* rose-ebony */
+  background: rgba(195,169,149,.15);       /* khaki tint */
+  border-radius: 999px;
+  transition: transform .15s ease, box-shadow .2s ease, background-color .2s ease;
+}
+
+.skill-chips li:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(171,148,126,.25);
+  background: rgba(195,169,149,.25);
+}
+
+
+/* -----------------------------
+   LET'S CONNECT HOMEPAGE
+----------------------------- */
+
+.form-control {
+  background: #FFFFFC;
+}
+/* -----------------------------
+  END OF LET'S CONNECT HOMEPAGE
+----------------------------- */
 
 
 
@@ -323,10 +382,125 @@ PROJECTS PAGE
 ---------------------- */
 
 
+/* Card container */
+.project-card {
+  background: #FFFFFC; /* off-white background */
+  border-left: 6px solid var(--beaver);
+  border-radius: 16px;
+  transition: transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 18px rgba(171, 148, 126, 0.25);
+}
+
+/* Thumbnail images */
+.project-thumb {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Tag pills */
+.tag-pill {
+  background: var(--beaver);
+  color: var(--white);
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+/* Filter buttons */
+.filter-btn {
+  background: #FFFFFC;
+  border: 2px solid var(--beaver);
+  color: var(--rose-ebony);
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  transition: transform .12s ease, background-color .2s ease, border-color .2s ease;
+}
+
+.filter-btn:hover {
+  transform: translateY(-1px);
+  background-color: var(--beaver);
+  color: var(--white);
+}
+
+.filter-btn.active {
+  background-color: var(--rose-ebony);
+  border-color: var(--rose-ebony);
+  color: #FFFFFC;
+}
+
+/* Title accent dot - optional for project titles */
+.project-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--rose-ebony);
+  box-shadow: 0 0 0 6px rgba(171,148,126,0.2); /* beaver glow */
+  display: inline-block;
+  margin-right: 8px;
+}
 
 /* ------------------
 END OF PROJECTS PAGE 
 ---------------------- */
+/* Filter pills */
+.filters {
+  /* optional: allow sideways scroll on small screens */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter-btn {
+  appearance: none;
+  border: 2px solid rgba(171, 148, 126, 0.35); /* beaver-ish outline */
+  background: #FFFFFC; /* off‑white base */
+  color: var(--rose-ebony);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;         /* pill */
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  transition: 
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease,
+    transform 120ms ease;
+}
+
+.filter-btn:hover {
+  background: rgba(195, 169, 149, 0.18); /* khaki tint */
+  border-color: var(--beaver);
+}
+
+.filter-btn:active {
+  transform: translateY(1px);
+}
+
+.filter-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(171, 148, 126, 0.35); /* beaver focus ring */
+}
+
+/* Active (selected) state */
+.filter-btn.is-active {
+  background: var(--rose-ebony);
+  color: var(--white);
+  border-color: var(--rose-ebony);
+  box-shadow: 0 6px 16px rgba(89, 61, 59, 0.22); /* soft depth */
+}
+
+/* Prefer-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .filter-btn { transition: none; }
+}
 
 
 

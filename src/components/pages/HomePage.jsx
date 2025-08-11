@@ -66,16 +66,7 @@ export default function HomePage() {
     </div>
   </div>
 
-
-
-
-
-
-              {/* SECTION 3 */}
-              {/* HOMEPAGE PROJECTS & EXPERIENCE CONTAINER */}
-
-
-              {/* HOMEPAGE PROJECTS CONTAINER */}
+              {/* PROJECTS CONTAINER */}
               <div className='container overflow-hidden'>
                 <div className="row flex-wrap p-4 m-2">
                   <div className="row">
@@ -84,37 +75,62 @@ export default function HomePage() {
                       <TopProjects />
                     </div>
 </div>
-                    {/* HOMEPAGE EXPERIENCE CONTAINER */}
-
-                        <div className='ExperienceContainer shadow-lg col gy-5 flex-wrap p-3 text-center'>
-                          <div className='ExperinceText p-3 m-5'>
-                            <h2 className='mt-5'>EXPERIENCE</h2>
-                            <div className='space'>
-                          <h4>University of Sydney January - August 2024</h4>
-                          <h5>Frontend Technology</h5>
-                          <p>- HTML5, CSS3, TailwindCSS, JavaScript, Bootstrap, jQuery, React</p>
-
-                          <h5>Backend Technology</h5>
-                          <p>- Node, Express.js, FastAPI, MySQL, PostgreSQL, MongoDB, Sequelize, GraphQL</p>
-
-                          <h5>Developer Heading</h5>
-                          <p>- Visual Studio Code, Git, GitHub, GitLab, CLI, Wordpress, Render, Apollo</p>
-
-                          <h5>Operating Systems</h5>
-                          <p>- Windows, iOS MacOS</p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               </div>
 
-      {/* END OF SECTION 3 */}
-      {/* END OF HOMEPAGE PROJECTS & EXPERIENCE CONTAINER */}
+{/* EXPERIENCE */}
+<section className="container my-5">
+  <div className="experience-card shadow-lg p-4 p-md-5">
+    <header className="d-flex align-items-center gap-3 mb-4">
+      <div className="exp-dot" aria-hidden="true"></div>
+      <h2 className="m-0">Experience</h2>
+    </header>
 
+    <h5 className="text-muted mb-1">University of Sydney <br></br> Jan–Aug 2024</h5>
+    <p className="mb-4 text-muted">Full Stack Engineer Bootcamp</p>
 
+    <div className="row text-muted g-4">
+      {/* Frontend */}
+      <div className="col-12 col-md-6">
+        <h6 className="text-uppercase fw-bold small mb-2">Frontend</h6>
+        <ul className="skill-chips">
+          <li>HTML5</li><li>CSS3</li><li>Bootstrap</li>
+          <li>Tailwind</li><li>JavaScript</li><li>jQuery</li><li>React</li>
+        </ul>
+      </div>
+
+      {/* Backend */}
+      <div className="col-12 col-md-6">
+        <h6 className="text-uppercase fw-bold small mb-2">Backend</h6>
+        <ul className="skill-chips">
+          <li>Node</li><li>Express</li><li>FastAPI</li>
+          <li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li>
+          <li>Sequelize</li><li>GraphQL</li>
+        </ul>
+      </div>
+
+      {/* Tooling */}
+      <div className="col-12 col-md-6">
+        <h6 className="text-uppercase fw-bold small mb-2">Tooling</h6>
+        <ul className="skill-chips">
+          <li>VS Code</li><li>Git</li><li>GitHub</li><li>GitLab</li>
+          <li>CLI</li><li>Render</li><li>WordPress</li><li>Apollo</li>
+        </ul>
+      </div>
+
+      {/* Systems */}
+      <div className="col-12 col-md-6">
+        <h6 className="text-uppercase fw-bold small mb-2">Systems</h6>
+        <ul className="skill-chips">
+          <li>macOS</li><li>Windows</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -127,7 +143,7 @@ export default function HomePage() {
       {/* CONTACT FORM */}
       <>
         {/* Contact Form Heading */}
-        <section className="text-center m-5">
+        <section className=" text-center m-5">
           <h2 className="display-5 fw-bold p-5">Let’s Connect</h2>
           <p className="lead text-muted">
             Have a question, idea, or opportunity? I/d love to hear from you.
@@ -173,7 +189,7 @@ export default function HomePage() {
                   style={{ height: 100 }}
                   defaultValue={""}
                 />
-                <label htmlFor="floatingTextarea2">Message</label>
+                <label className='text-muted' htmlFor="floatingTextarea2">Message</label>
               </div>
 
               <button type="submit" className="btn-custom m-3">
