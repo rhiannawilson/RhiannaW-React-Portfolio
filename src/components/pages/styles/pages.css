@@ -511,16 +511,17 @@ END OF PROJECTS PAGE
 ABOUT PAGE
 ----------------- */
 
-.aboutPage{
-  color:#6B644C;
-}
 
 .aboutHeading {
   color: #6B644C;
-  padding: 5%;
-  float:inline-start;
+  /* padding: 5%; */
 }
 
+.aboutText {
+    border: 1px solid red;
+  /* float:inline-end; */
+
+}
 
 
 /* --------------
