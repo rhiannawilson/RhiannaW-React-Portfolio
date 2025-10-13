@@ -10,9 +10,9 @@ export default function ContactForm() {
        
 <>
   <section className="text-center p-5 m-5">
-    <h2 className="display-5 fw-bold">Let’s Connect</h2>
+    <h2 className="display-5 letter fw-bold">Let’s Connect</h2>
     <p className="lead text-muted">
-      Have a question, idea, or opportunity? I'd love to hear from you.
+      Have a question, idea, or opportunity? I’d love to hear from you.
     </p>
 
     {/* Contact Form */}

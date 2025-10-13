@@ -44,7 +44,7 @@
 }
 
 .navbar ul li a:not(.side-navbar-brand) {
-  color: #BEB7A4;
+  color: #6B644C;
   text-decoration: none;
   padding: 0.5rem 1rem;
   font-weight: 500;
@@ -55,7 +55,7 @@
 }
 
 .navbar ul li a:hover {
-  color: #6B644C;
+  color: #BEB7A4;
 ;
   text-decoration: none;
 }
@@ -65,13 +65,13 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 2rem;
   font-weight: 600;
-  color: #BEB7A4;
+  color: #6B644C;
   letter-spacing: 2px;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .side-navbar-brand:hover {
-  color: #6B644C;
+  color: #BEB7A4;
   transform: scale(1.05);
 }
 
@@ -226,7 +226,7 @@ h1 {
   gap: 1rem;
 }
 /* RHIANNA */
-.letter {
+.letterHeading {
   font-size: 5rem;
   font-family: 'Work Sans', sans-serif;
   color: #6B644C;
@@ -235,13 +235,13 @@ h1 {
 }
 
 /* Optional stagger using nth-child */
-.letter:nth-child(1) { animation-delay: 0s; }
-.letter:nth-child(2) { animation-delay: 0.3s; }
-.letter:nth-child(3) { animation-delay: 0.6s; }
-.letter:nth-child(4) { animation-delay: 0.9s; }
-.letter:nth-child(5) { animation-delay: 1.2s; }
-.letter:nth-child(6) { animation-delay: 1.5s; }
-.letter:nth-child(7) { animation-delay: 1.8s; }
+.letterHeading:nth-child(1) { animation-delay: 0s; }
+.letterHeading:nth-child(2) { animation-delay: 0.3s; }
+.letterHeading:nth-child(3) { animation-delay: 0.6s; }
+.letterHeading:nth-child(4) { animation-delay: 0.9s; }
+.letterHeading:nth-child(5) { animation-delay: 1.2s; }
+.letterHeading:nth-child(6) { animation-delay: 1.5s; }
+.letterHeading:nth-child(7) { animation-delay: 1.8s; }
 
 /* Scanner bar moves slowly across */
 .scanner-bar {
@@ -317,6 +317,26 @@ h1 {
 
 
 
+
+/* -----------------------------
+   FEATURED CONTAINER 
+----------------------------- */
+.featuredContainer {
+  color:#6B644C;
+}
+
+.featuredProjects {
+    padding-left: 40%;
+    align-items: center;
+  color:#6B644C;
+
+}
+
+/* -----------------------------
+   END OF FEATURED CONTAINER  
+----------------------------- */
+
+
 /* -----------------------------
    EXPERIENCE CARD SHELL 
 ----------------------------- */
@@ -326,6 +346,13 @@ h1 {
   background: #FFFFFC;
   border-left: 6px solid var(--beaver);
   border-radius: 16px;
+  color:#6B644C;
+}
+
+.experienceHeader {
+  padding-left: 40%;
+  color:#6B644C;
+
 }
 
 /* Title accent dot */
@@ -345,6 +372,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem .6rem;
+  
 }
 
 .skill-chips li {
@@ -371,6 +399,11 @@ h1 {
 .form-control {
   background: #FFFFFC;
 }
+
+.display-5, fw-bold, p-5 {
+  color: #6B644C;
+}
+
 /* -----------------------------
   END OF LET'S CONNECT HOMEPAGE
 ----------------------------- */
@@ -514,15 +547,26 @@ ABOUT PAGE
 
 .aboutHeading {
   color: #6B644C;
+  font-family: 'Work Sans', sans-serif;
+
   /* padding: 5%; */
 }
 
+.aboutIntro {
+  width: 108%;
+  border-radius: 26px;
+
+}
+
 .aboutText {
-    border: 1px solid red;
+  color:  #AB947E;
   /* float:inline-end; */
 
 }
 
+h4 {
+  color:  #AB947E;
+}
 
 /* --------------
 END OF ABOUT PAGE 

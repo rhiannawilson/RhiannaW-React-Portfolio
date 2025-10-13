@@ -29,39 +29,7 @@ https://rmw-netlify-deployment.netlify.app/
 ├── dist/
 ├── node_modules/ 
 ├── public/
-    ├── _redirects
-    ├── animation.js  
-    ├── vite.svg
 ├── src/ 
-    ├── assets/ 
-        ├── favicon_io-bg
-        ├── PortfolioColourPallette.png
-        ├── ViewOfProject.png
-    ├── components/
-        ├── pages/
-            ├── pageAssets
-            ├── styles
-                ├── Footer.css
-                ├── pages.css               
-            ├── UI
-                ├── Alert.jsx
-                ├── Navibar.jsx
-            ├── About.jsx
-            ├── ContactForm.jsx
-            ├── ErrorPage.jsx
-            ├── Footer.jsx
-            ├── Header.jsx
-            ├── HomePage.jsx
-            ├── Projects.jsx
-        ├── Navigation.jsx
-        ├── PortfolioContainer.jsx
-    ├── App.css
-    ├── App.jsx
-    ├── index.css
-    ├── Main.jsx
-├── .eslintrc.cjs 
-├── .gitignore
-├── AFUTURE.md
 ├── index.html 
 ├── LICENSE   
 ├── package-lock.json

@@ -84,18 +84,16 @@ export default function HomePage() {
 {/* EXPERIENCE */}
 <section className="container my-5">
   <div className="experience-card shadow-lg p-4 p-md-5">
-    <header className="d-flex align-items-center gap-3 mb-4">
+    <header className="d-flex align-items-center gap-3 mb-4 experienceHeader">
       <div className="exp-dot" aria-hidden="true"></div>
-      <h2 className="m-0">Experience</h2>
+      <h2 className="m-0">Experience</h2><div className='exp-dot'></div>
     </header>
 
-    <h5 className="text-muted mb-1">University of Sydney <br></br> Jan–Aug 2024</h5>
-    <p className="mb-4 text-muted">Full Stack Engineer Bootcamp</p>
-
+    <h5 className="text-muted mb-4 text-center">University of Sydney - Jan 2024 - Full Stack Engineer Bootcamp</h5>
     <div className="row text-muted g-4">
       {/* Frontend */}
       <div className="col-12 col-md-6">
-        <h6 className="text-uppercase fw-bold small mb-2">Frontend</h6>
+        <h6 className="text-uppercase fw-bold small mb-3 mt-3">Frontend</h6>
         <ul className="skill-chips">
           <li>HTML5</li><li>CSS3</li><li>Bootstrap</li>
           <li>Tailwind</li><li>JavaScript</li><li>jQuery</li><li>React</li>
@@ -104,7 +102,7 @@ export default function HomePage() {
 
       {/* Backend */}
       <div className="col-12 col-md-6">
-        <h6 className="text-uppercase fw-bold small mb-2">Backend</h6>
+        <h6 className="text-uppercase fw-bold small mb-3 mt-3">Backend</h6>
         <ul className="skill-chips">
           <li>Node</li><li>Express</li><li>FastAPI</li>
           <li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li>
@@ -114,7 +112,7 @@ export default function HomePage() {
 
       {/* Tooling */}
       <div className="col-12 col-md-6">
-        <h6 className="text-uppercase fw-bold small mb-2">Tooling</h6>
+        <h6 className="text-uppercase fw-bold small mb-3 mt-3">Tooling</h6>
         <ul className="skill-chips">
           <li>VS Code</li><li>Git</li><li>GitHub</li><li>GitLab</li>
           <li>CLI</li><li>Render</li><li>WordPress</li><li>Apollo</li>
@@ -122,8 +120,8 @@ export default function HomePage() {
       </div>
 
       {/* Systems */}
-      <div className="col-12 col-md-6">
-        <h6 className="text-uppercase fw-bold small mb-2">Systems</h6>
+      <div className="col-12 col-md-6 mb-4">
+        <h6 className="text-uppercase fw-bold small mb-3 mt-3">Systems</h6>
         <ul className="skill-chips">
           <li>macOS</li><li>Windows</li>
         </ul>
@@ -144,9 +142,9 @@ export default function HomePage() {
       <>
         {/* Contact Form Heading */}
         <section className=" text-center m-5">
-          <h2 className="display-5 fw-bold p-5">Let’s Connect</h2>
+          <h2 className="display-5 letterHeading fw-bold p-5">Let’s Connect</h2>
           <p className="lead text-muted">
-            Have a question, idea, or opportunity? I/d love to hear from you.
+            Have a question, idea, or opportunity? I’d love to hear from you.
           </p>
 
           {/* Contact Form */}

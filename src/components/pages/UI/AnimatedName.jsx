@@ -17,7 +17,7 @@ export default function AnimatedName() {
     <main className="animated-main">
       <div className="letter-line">
         {letters.map(({ char, className }, index) => (
-          <h1 key={index} className={`letter ${className}`}>
+          <h1 key={index} className={`letterHeading ${className}`}>
             {char}
           </h1>
         ))}

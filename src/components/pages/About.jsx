@@ -10,7 +10,12 @@ import { Container, Col, Row } from 'react-bootstrap';
 function About() {
     return (
     <PageWrapper>
+      
   <Container className="my-5 m-2">
+
+        <h2 className="p-5 m-2 display-5 letterHeading fw-bold">About</h2>
+        <h4 className="aboutIntro m-4 mt-1 text-center shadow-lg p-md-4"> <strong>I’m a Sydney-based full-stack engineer with a background in operations and project management. <br></br> <br></br>My journey into tech began with a desire to build smarter systems. <br></br> <br></br>Now I design and develop user-centred web applications using React, Node.js, and modern frameworks. </strong> </h4>
+    
     {/* Timeline row */}
     <Row className="align-items-start mb-5">
       {/* Year column */}
@@ -20,12 +25,12 @@ function About() {
 
       {/* Content column */}
       <Col md={9}>
-        <h3 className="m-4 mt-3">
+        <h4 className="m-4 mt-3 experience-card shadow-lg p-md-4 aboutText">
           With a strong focus on <strong>frontend development</strong>, I mastered{' '}
           <strong>HTML5</strong> and <strong>CSS3</strong>, completing a{' '}
           <strong>Codecademy</strong> course which opened the doors into the world of website
           development. During the pandemic this is where I had the time to explore.
-        </h3>
+        </h4>
       </Col>
     </Row>
 
@@ -37,15 +42,15 @@ function About() {
 
   {/* Content column */}
   <Col md={9}>
-    <h3 className=" m-4 mt-3">
+    <h4 className=" m-4 mt-3 experience-card shadow-lg p-md-4 aboutText">
       I had the privilege to study at the <strong>University of Sydney</strong>,
       expanding and developing skills in various programming technologies. I
       enrolled in a <strong>Full Stack Engineer</strong> course with
       <strong> EDX Bootcamps</strong> and the <strong>University of Sydney</strong>,
       and became <strong>certified in August</strong> of this year.
-    </h3>
+    </h4>
 
-    <h3 className=" m-4 mt-3">
+    <h4 className=" m-4 mt-3 experience-card shadow-lg p-md-4 aboutText">
       We delved straight into <strong>frontend basics</strong> to advanced
       <strong> CSS</strong> and frameworks such as <strong>JavaScript</strong>,
       <strong> TailwindCSS</strong>, <strong>Bootstrap</strong>, and <strong>jQuery</strong>,
@@ -56,9 +61,9 @@ function About() {
       <strong> MySQL</strong>, <strong>PostgreSQL</strong>, and <strong>MongoDB</strong>,
       and became adept at using <strong>Sequelize</strong> and <strong>GraphQL</strong>
       for data management.
-    </h3>
+    </h4>
 
-    <h3 className=" m-4 mt-3">
+    <h4 className=" m-4 mt-3 experience-card shadow-lg p-md-4 aboutText">
       During this course, we used tools like <strong>Visual Studio Code</strong>,
       <strong> Git</strong>, <strong>GitHub</strong>, <strong>GitLab</strong>, and the
       <strong> command-line interface</strong>, while applying
@@ -70,7 +75,7 @@ function About() {
       <strong> expanded my technical abilities</strong> but also
       <strong> reinforced my passion</strong> for software development, preparing me to tackle
       future challenges with <strong>confidence and creativity</strong>.
-    </h3>
+    </h4>
   </Col>
 
       <Row className="align-items-start mt-5 mb-5">
@@ -81,9 +86,9 @@ function About() {
 
         {/* Content column */}
         <Col md={9}>
-        <h3 className="m-4 mt-3">
+        <h4 className="m-4 mt-3 experience-card shadow-lg p-md-4 aboutText">
                     Developing new projects and seeking full time employment and support in Web Development.
-        </h3>
+        </h4>
         </Col>
 
     </Row>

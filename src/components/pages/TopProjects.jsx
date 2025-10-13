@@ -4,8 +4,15 @@ export default function TopProjects() {
   const featured = projects.slice(0, 3); // first 3
 
   return (
-    <div className="Featuredcontainer my-5">
-      <h2 className="mb-4 text-center">FEATURED PROJECTS</h2>
+    <div className="container my-2">
+      {/* <h2 className="mb-4 text-center">FEATURED PROJECTS</h2> */}
+ <div className="featuredContainer p-4 p-md-2">
+    <header className="d-flex featuredProjects align-items-center mb-2 gap-3">
+      <div className="exp-dot" aria-hidden="true"></div>
+      <h2 className="m-0">Featured Projects</h2><div className="exp-dot"></div>
+    </header></div>
+
+      
       <div className="row flex-wrap p-4 m-2">
         {featured.map((project) => (
           <div key={project.id} className="col-12 col-md-6 col-lg-4 mb-4">

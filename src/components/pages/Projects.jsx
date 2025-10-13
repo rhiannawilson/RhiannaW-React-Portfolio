@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <PageWrapper>
       <div className="projectsPage container p-5 m-5">
-        <h2 className="display-5 fw-bold mb-3">Projects</h2>
+        <h2 className="display-5 letterHeading fw-bold mb-3">Projects</h2>
 
         {/* Filter Bar */}
      {/* Filter Bar */}
