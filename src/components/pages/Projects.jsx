@@ -74,7 +74,7 @@ export default function Projects() {
                       </a>
                     )}
                     <button
-                      className="btn btn-primary btn-sm"
+                      className="btn btn-secondary btn-sm"
                       data-bs-toggle="modal"
                       data-bs-target={`#projectModal${project.id}`}
                     >
