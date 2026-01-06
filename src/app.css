@@ -21,40 +21,31 @@
   margin: 0;
   padding: 0; 
       font-family: 'Work Sans', sans-serif;
+}
 
+html {
+  background: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("/src/components/pages/pageAssets/shadowBg2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-color: transparent;
+  min-height: 100vh;
+  margin: 0;
 }
 
 #root {
-  height: 100%; 
-  font-family: 'Cormorant Garamond', serif;
-/*  *Button text**
-– **Borders or minimal dividers**
-– **Icons** */
- 
-  --Main-background: #ffffff;
-  /* 
-✅ **(Off-White)**
-– **Main background** (body)
-– **Card backgrounds**
-– **Sections for readability**
-/* /*   */
-
-
- --Accent: #BEB7A4;
-
-/* ✅ **#BEB7A4 (Warm Beige)**
-– **Accent colour** for:
-* Button backgrounds
-* Link hover states
-* Section dividers
-* Small icon fills or borders
-* Highlight boxes or pull quotes */
+  min-height: 100%;
+  width: 100%;
 }
 
-html, body {
-  height: 100%;
-  scroll-behavior: smooth;
-}
 
 /* *{
   border: 1px solid red;
@@ -62,17 +53,14 @@ html, body {
 
 
 
-body {
-  background-image: url("./components/pages/pageAssets/shadowBg2.jpg");
-  background-size: auto;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-
-}
-
 /* -------------------------
    END OF RESET & BASE STYLES
 ------------------------- */
+
+
+
+
+
 
 
 
@@ -164,7 +152,7 @@ body {
   border-radius: 2px;
 
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .animated-main {
     transform: scale(0.6);
     transform-origin: left top;

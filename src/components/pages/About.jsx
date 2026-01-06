@@ -20,7 +20,7 @@ function About() {
     <Row className="align-items-start mb-5">
       {/* Year column */}
       <Col md={3} className="text-md-end text-center">
-        <h1 className="display-3 aboutHeading mt-3 fw-bold">2020</h1>
+        <h1 className="display-3 aboutDate mt-3 fw-bold">2020</h1>
       </Col>
 
       {/* Content column */}
@@ -37,7 +37,7 @@ function About() {
 <Row className="align-items-start mb-5">
   {/* Year column */}
   <Col md={3} className="text-md-end text-center">
-    <h1 className="display-3 mt-3 aboutHeading fw-bold">2024</h1>
+    <h1 className="display-3 mt-3 aboutDate fw-bold">2024</h1>
   </Col>
 
   {/* Content column */}
@@ -81,7 +81,7 @@ function About() {
       <Row className="align-items-start mt-5 mb-5">
         {/* Year column */}
         <Col md={3} className="text-md-end text-center">
-        <h1 className="display-3 mt-3 aboutHeading fw-bold">2025</h1>   
+        <h1 className="display-3 mt-3 aboutDate fw-bold">2025</h1>   
         </Col>
 
         {/* Content column */}

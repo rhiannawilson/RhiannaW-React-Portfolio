@@ -326,9 +326,8 @@ h1 {
 }
 
 .featuredProjects {
-    padding-left: 40%;
     align-items: center;
-  color:#6B644C;
+    color:#6B644C;
 
 }
 
@@ -545,23 +544,17 @@ ABOUT PAGE
 ----------------- */
 
 
-.aboutHeading {
+.aboutDate {
   color: #6B644C;
   font-family: 'Work Sans', sans-serif;
-
-  /* padding: 5%; */
 }
 
 .aboutIntro {
-  width: 108%;
   border-radius: 26px;
-
 }
 
 .aboutText {
   color:  #AB947E;
-  /* float:inline-end; */
-
 }
 
 h4 {
@@ -571,8 +564,6 @@ h4 {
 /* --------------
 END OF ABOUT PAGE 
 ----------------- */
-
-
 
 
 
